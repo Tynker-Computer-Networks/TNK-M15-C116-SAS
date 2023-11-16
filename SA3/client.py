@@ -118,7 +118,7 @@ def handle_win(message):
     # Access wining_message as global
     global wining_message
     # Check if 'red' in message and set the color variable to red or yellow accordingly. 
-    if 'red' in message:
+    if 'Player1' in message:
         color = 'red'
     else:
         color = 'yellow'
