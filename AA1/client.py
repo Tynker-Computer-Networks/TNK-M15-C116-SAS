@@ -131,8 +131,8 @@ def update_score(message):
     # Access canvas2, variable storing the score and the score labels as global variables
     global canvas2, player1_score, player2_score, player1_score_label, player2_score_label
 
-    # Check if 'red' exits in the message then update score of player1 otherwise of player2
-    if('red' in message):
+    # Check if 'Player1' exits in the message then update score of player1 otherwise of player2
+    if('Player1' in message):
         player1_score +=1
     else:
         player2_score +=1
