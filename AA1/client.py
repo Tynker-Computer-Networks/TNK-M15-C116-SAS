@@ -120,7 +120,7 @@ def move_player(steps, color):
         
 def handle_win(message):
     global wining_message
-    if 'red' in message:
+    if 'Player1' in message:
         color = 'red'
     else:
         color = 'yellow'
