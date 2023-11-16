@@ -95,7 +95,7 @@ def roll_dice():
 
 def move_player(steps, color):
     global left_boxes, right_boxes, finishing_box
-    if(color == 'red'):
+    if(color == 'Player1'):
          boxes = left_boxes
     else:
         boxes =right_boxes
